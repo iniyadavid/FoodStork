@@ -1,8 +1,11 @@
 package com.example.ctadmin.fabric;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.digits.sdk.android.AuthCallback;
@@ -39,6 +42,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void failure(DigitsException exception) {
                 Log.d("Digits", "Sign in with Digits failure", exception);
+            }
+        });
+        Button gotoButton = (Button) findViewById(R.id.gotoButton);
+
+
+        gotoButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent gotoIntent = new Intent(MainActivity.this,Details.class);
+                startActivity(gotoIntent);
             }
         });
 

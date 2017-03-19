@@ -8,13 +8,17 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".LauncherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Details"/>
+        <activity android:name=".Donor"/>
+        <activity android:name=".Receiver"/>
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="efbe3f191005ec3a6b49e5d67d085f0882a982a7" />

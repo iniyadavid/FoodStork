@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/white1"
+
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+     android:layout_marginTop="80dp"
+        android:src="@drawable/foodstork1"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/foodstork2"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="110dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/applicationName"
+android:layout_gravity="center"
+        android:background="#51160404"
+        android:text="Bringing the Joy of Sharing!"/>
+
+</LinearLayout>
