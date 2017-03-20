@@ -19,6 +19,8 @@
         <activity android:name=".Details"/>
         <activity android:name=".Donor"/>
         <activity android:name=".Receiver"/>
+        <activity android:name=".DonorRegistration"/>
+        <activity android:name=".ViewDetails"/>
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="efbe3f191005ec3a6b49e5d67d085f0882a982a7" />
