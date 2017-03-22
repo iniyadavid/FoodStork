@@ -9,4 +9,5 @@ import android.view.View;
  */
 
 public class Receiver extends AppCompatActivity {
+
 }

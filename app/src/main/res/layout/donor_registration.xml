@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Your Details!"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+    android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_marginTop="30dp"
+       android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:id="@+id/personEditText"
+        android:hint="Type Name"
+        android:layout_marginStart="20dp"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:id="@+id/addressView"
+        android:hint="Postal Address"
+        android:layout_marginStart="20dp"
+        android:inputType="textPostalAddress"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="center"
+        android:shape="rectangle"
+        android:shadowColor="#000000"
+        android:layout_marginTop="40dp"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:radius="50dp"
+        android:background="#6e3a9f"
+        android:textColor="#ffff"/>
+</LinearLayout>
+    </ScrollView>
