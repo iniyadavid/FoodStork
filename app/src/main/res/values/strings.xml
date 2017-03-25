@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FoodStork</string>
+    <string name="phone1">9176687715</string>
+    <string name="phone2">9841335951</string>
+    <string name="home1"> Christ Faith Home For Children</string>
+    <string name="home2">Nethaji Mercy Home</string>
+    <string name="upload_image">UPLOAD IMAGE</string>
 </resources>

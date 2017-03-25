@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffff">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffff">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home1"
+        android:autoLink="all"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#326a9e"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffff">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:layout_marginStart="10dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4689C8"
+                android:textStyle="bold"
+                />
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text=" 3/91, Mettu Colony,
+ Porur Porur Chennai, Tamil Nadu 600116"
+                android:layout_marginStart="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#c22d7d"
+                android:textStyle="bold"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:layout_marginStart="10dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4689C8"
+                android:textStyle="bold"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone1"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:layout_marginStart="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#c22d7d"
+                android:textStyle="bold"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People Accomodated:"
+                android:layout_marginStart="10dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4689C8"
+                android:textStyle="bold"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:layout_marginStart="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#c22d7d"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="147dp"
+            android:src="@drawable/christfaith"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/donateButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#6e3a9f"
+        android:radius="50dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:shape="rectangle"
+        android:text="DONATE"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffff">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home2"
+            android:autoLink="all"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="10dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#326a9e"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffff">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffff">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:layout_marginStart="10dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#4689C8"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="No.12, Pandithurai Street,Land Mark Sangeetha Restaurant,
+Velachery Bypass Rd, Kamarajapuram,
+Chennai, Tamil Nadu 600042"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#c22d7d"
+                    android:textStyle="bold" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone:"
+                    android:layout_marginStart="10dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#4689C8"
+                    android:textStyle="bold"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone2"
+                    android:autoLink="phone"
+                    android:layout_marginStart="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#c22d7d"
+                    android:textStyle="bold"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="People Accomodated:"
+                    android:layout_marginStart="10dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#4689C8"
+                    android:textStyle="bold"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="40"
+                    android:layout_marginStart="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#c22d7d"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:src="@drawable/nethaji"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/donateButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#6e3a9f"
+            android:radius="50dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:shape="rectangle"
+            android:text="DONATE"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
