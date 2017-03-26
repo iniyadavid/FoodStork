@@ -1,9 +1,10 @@
 package com.example.ctadmin.fabric;
-import android.content.Intent;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
+
 /**
  * Created by ctadmin on 19-03-2017.
  */

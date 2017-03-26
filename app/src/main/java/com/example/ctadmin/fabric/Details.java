@@ -1,18 +1,16 @@
 package com.example.ctadmin.fabric;
-import android.content.Intent;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import android.view.View;
-
 import android.widget.ImageButton;
 
 /**
  * Created by ctadmin on 19-03-2017.
  */
 
-public class Details extends  AppCompatActivity {
+public class Details extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -24,7 +22,7 @@ public class Details extends  AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent gotoIntent = new Intent(Details.this,Donor.class);
+                Intent gotoIntent = new Intent(Details.this, Donor.class);
                 startActivity(gotoIntent);
             }
         });
@@ -35,7 +33,7 @@ public class Details extends  AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent gotoIntent = new Intent(Details.this,Receiver.class);
+                Intent gotoIntent = new Intent(Details.this, Receiver.class);
                 startActivity(gotoIntent);
             }
         });

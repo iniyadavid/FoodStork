@@ -1,52 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffff"
-    android:weightSum="1">
-    <TextView
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Register!"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
-        android:textStyle="bold"
-        />
-    <ImageButton
-        android:id="@+id/registerbutton"
-        android:layout_width="253dp"
-        android:layout_height="137dp"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#ffff"
-        android:layout_gravity="center"
-        android:src="@drawable/register1"
-        android:layout_weight="0.61" />
-    <TextView
+        android:orientation="vertical"
+        android:weightSum="1">
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View Details Of Charity Home !"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="30dp"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
-        android:textStyle="bold"
-        />
-    <ImageButton
-        android:id="@+id/viewbutton"
+        <TextView
 
-        android:layout_width="332dp"
-        android:background="#ffff"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content"
-        android:src="@drawable/home1" />
-</LinearLayout>
-    </ScrollView>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Register!"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/registerbutton"
+            android:layout_width="253dp"
+            android:layout_height="137dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.61"
+            android:background="#ffff"
+            android:src="@drawable/register1" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:text="View Details Of Charity Home !"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/viewbutton"
+
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ffff"
+            android:src="@drawable/home1" />
+    </LinearLayout>
+</ScrollView>

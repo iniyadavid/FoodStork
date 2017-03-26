@@ -6,14 +6,11 @@ import android.os.Bundle;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.widget.TextView;
-
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.example.ctadmin.fabric.data.DonorDetailsContract;
 import com.example.ctadmin.fabric.data.DonorDetailsDBHelper;
 import static com.example.ctadmin.fabric.data.DonorDetailsContract.DonorDetailsEntry.COLUMN_DONOR_NAME;
@@ -28,6 +25,7 @@ import static com.example.ctadmin.fabric.data.DonorDetailsContract.DonorDetailsE
 public class DonorRegistration extends AppCompatActivity {
     DonorDetailsDBHelper dbHelper;
     SQLiteDatabase db;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -39,24 +37,24 @@ public class DonorRegistration extends AppCompatActivity {
                 EditText samplePersonEditTextView = (EditText) findViewById(R.id.personEditText);
                 String name = samplePersonEditTextView.getText().toString();
                 EditText samplePersonEditTextView1 = (EditText) findViewById(R.id.addressView);
-                String address= samplePersonEditTextView1.getText().toString();
+                String address = samplePersonEditTextView1.getText().toString();
                 EditText samplePersonEditTextView2 = (EditText) findViewById(R.id.contactView);
-                Integer contact= Integer.parseInt(samplePersonEditTextView2.getText().toString());
+                Integer contact = Integer.parseInt(samplePersonEditTextView2.getText().toString());
                 EditText samplePersonEditTextView3 = (EditText) findViewById(R.id.emailView);
-                String email= samplePersonEditTextView3.getText().toString();
+                String email = samplePersonEditTextView3.getText().toString();
 
-                insertDetails(name,address,contact,email);
+                insertDetails(name, address, contact, email);
                 readDetails(name);
 
-                    Intent gotoIntent = new Intent(DonorRegistration.this, Donor.class);
-                    startActivity(gotoIntent);
+                Intent gotoIntent = new Intent(DonorRegistration.this, Donor.class);
+                startActivity(gotoIntent);
 
             }
         });
 
 
-
     }
+
     public void insertDetails(String name, String address, int contact, String email) {
         try {
             db = dbHelper.getWritableDatabase();
@@ -69,8 +67,7 @@ public class DonorRegistration extends AppCompatActivity {
             db.insert(DonorDetailsContract.DonorDetailsEntry.TABLE_NAME, "null", values);
             Toast.makeText(this, "Registration Successful!",
                     Toast.LENGTH_LONG).show();
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Toast toast = Toast.makeText(this, "Registration Failed!", Toast.LENGTH_SHORT);
             toast.show();
 
@@ -78,6 +75,7 @@ public class DonorRegistration extends AppCompatActivity {
         }
 
     }
+
     public void readDetails(String donorname) {
         db = dbHelper.getReadableDatabase();
         String whereClause = COLUMN_DONOR_NAME + " = ?";
@@ -86,7 +84,7 @@ public class DonorRegistration extends AppCompatActivity {
         StringBuilder sb = new StringBuilder();
         String[] projection = {
                 COLUMN_DONOR_NAME,
-                COLUMN_DONOR_ADDRESS,COLUMN_DONOR_CONTACT,COLUMN_DONOR_EMAIL};
+                COLUMN_DONOR_ADDRESS, COLUMN_DONOR_CONTACT, COLUMN_DONOR_EMAIL};
         Cursor c = db.query(
                 DonorDetailsContract.DonorDetailsEntry.TABLE_NAME,
                 projection,

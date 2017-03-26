@@ -4,8 +4,10 @@ package com.example.ctadmin.fabric.data;
 import android.provider.BaseColumns;
 
 public final class DonorDetailsContract {
-private DonorDetailsContract(){}
-    public static final class DonorDetailsEntry implements BaseColumns{
+    private DonorDetailsContract() {
+    }
+
+    public static final class DonorDetailsEntry implements BaseColumns {
 
         public static final String TABLE_NAME = "donor_details";
         public final static String _ID = BaseColumns._ID;

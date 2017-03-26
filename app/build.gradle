@@ -44,4 +44,6 @@ dependencies {
     compile('com.digits.sdk.android:digits:2.0.6@aar') {
         transitive = true;
     }
+    compile files('libs/json-simple-1.1.1.jar')
+    compile files('libs/sendgrid-0.1.2-jar.jar')
 }

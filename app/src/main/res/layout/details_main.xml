@@ -1,52 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffff"
-    android:weightSum="1">
-    <TextView
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Donate!"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
-        android:textStyle="bold"
-        />
-<ImageButton
-    android:id="@+id/donorbutton"
-    android:layout_width="330dp"
-    android:layout_height="wrap_content"
-android:background="#ffff"
-    android:layout_gravity="center"
-    android:src="@drawable/rsz_fooddonor2" />
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Recieve Donation!"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="30dp"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
-        android:textStyle="bold"
-        />
-
-    <ImageButton
-        android:id="@+id/receiverbutton"
-
-        android:layout_width="332dp"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#ffff"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content"
-        android:src="@drawable/foodreceive1" />
-</LinearLayout>
-    </ScrollView>
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Donate!"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/donorbutton"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ffff"
+            android:src="@drawable/rsz_fooddonor2" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Recieve Donation!"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/receiverbutton"
+
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ffff"
+            android:src="@drawable/foodreceive1" />
+    </LinearLayout>
+</ScrollView>

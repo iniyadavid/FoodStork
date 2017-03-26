@@ -3,7 +3,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -21,13 +20,14 @@ public class Receiver extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
                 sendEmail(context, new String[]{"foodstork2017@gmail.com"}, "New Registration for Home",
-                        "New Registration for Home", "Dear Home,                                       " + "      Please enter details and attach a photo.                 " +
+                        "New Registration for Home","Dear Home,                                       " + "      Please enter details and attach a photo.                 " +
 
 
                                 "                                       *Name of Charity Home:                       " +
-                                "*Address:                                                         " +
-                                "*Contact No:                          " +
-                                "                          *No. of people accomodated:        " +"           We thereby confirm that we would like to register our Charity home to FoodStork.");
+                                "*Address:                                                       " +
+                                "*Contact No:                       " +
+                                "                                      *No. of people accomodated:        " +"           We thereby confirm that we would like to register our Charity home to FoodStork."
+                );
             }
         });
 

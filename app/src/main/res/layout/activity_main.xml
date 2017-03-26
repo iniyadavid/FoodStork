@@ -1,70 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="#ffff"
-    tools:context="com.example.ctadmin.fabric.MainActivity">
-<ImageView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="30dp"
-    android:src="@drawable/foodstork1"/>
-    <ImageView
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/foodstork2"/>
-    <TextView
-        android:id="@+id/sample_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Press Button to SignUp!"
-        android:layout_marginTop="30dp"
-    android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
-        android:textStyle="bold"
-        />
+        android:background="#ffff"
+        android:orientation="vertical"
+        tools:context="com.example.ctadmin.fabric.MainActivity">
 
-    <com.digits.sdk.android.DigitsAuthButton
-        android:id="@+id/auth_button"
-      android:layout_marginStart="75dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:id="@+id/sample_text_view1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Press Button to Login!"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
-        android:textStyle="bold"
-        />
-    <Button
-android:id="@+id/gotoButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LOGIN"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:layout_gravity="center"
-        android:shape="rectangle"
-        android:shadowColor="#000000"
-        android:shadowDx="2"
-        android:shadowDy="2"
-        android:shadowRadius="1"
-        android:radius="50dp"
-        android:background="#6e3a9f"
-        android:textColor="#ffff"/>
-</LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:src="@drawable/foodstork1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/foodstork2" />
+
+        <TextView
+            android:id="@+id/sample_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Press Button to SignUp!"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <com.digits.sdk.android.DigitsAuthButton
+            android:id="@+id/auth_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp" />
+
+        <TextView
+            android:id="@+id/sample_text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Press Button to Login!"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/gotoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#6e3a9f"
+            android:radius="50dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:shape="rectangle"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+    </LinearLayout>
 </ScrollView>

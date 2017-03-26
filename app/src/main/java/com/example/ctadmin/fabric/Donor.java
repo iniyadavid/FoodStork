@@ -1,8 +1,8 @@
 package com.example.ctadmin.fabric;
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -22,7 +22,7 @@ public class Donor extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent gotoIntent = new Intent(Donor.this,DonorRegistration.class);
+                Intent gotoIntent = new Intent(Donor.this, DonorRegistration.class);
                 startActivity(gotoIntent);
             }
         });
@@ -33,7 +33,7 @@ public class Donor extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent gotoIntent = new Intent(Donor.this,ViewDetails.class);
+                Intent gotoIntent = new Intent(Donor.this, ViewDetails.class);
                 startActivity(gotoIntent);
             }
         });
