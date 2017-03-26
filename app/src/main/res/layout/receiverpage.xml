@@ -28,6 +28,7 @@
             android:background="#ffff"
             android:layout_gravity="center"
             android:src="@drawable/register1"
+
             android:layout_weight="0.61" />
         <TextView
 
