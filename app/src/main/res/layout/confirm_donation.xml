@@ -15,7 +15,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="30dp"
-            android:text="Confirm Donation"
+            android:text="@string/confirm_donation"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="We thereby confirm that we would like to donate via FoodStork "
+            android:text="@string/we_thereby_confirm_that_we_would_like_to_donate_via_foodstork"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="#d7184e"
             android:textStyle="bold" />
@@ -37,7 +37,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
-            android:text="Type Email for receiving confirmation:"
+            android:text="@string/type_email_for_receiving_confirmation"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:ems="10"
-            android:hint="Type Email-id"
+            android:hint="@string/type_email_id"
             android:inputType="textEmailAddress" />
 
         <TextView
@@ -58,7 +58,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
-            android:text="Type Contact No:"
+            android:text="@string/type_contact_no"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:ems="10"
-            android:hint="Type Contact No:"
+            android:hint="@string/type_contact_no"
             android:inputType="number" />
 
         <Button
@@ -86,7 +86,7 @@
             android:shadowDy="2"
             android:shadowRadius="1"
             android:shape="rectangle"
-            android:text="CONFIRM DONATION"
+            android:text="@string/confirm_donation1"
             android:textAlignment="center"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="#ffff"

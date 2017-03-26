@@ -5,7 +5,7 @@
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="#ffff"
         android:orientation="vertical"
         android:weightSum="1">
@@ -17,7 +17,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="30dp"
-            android:text="Register!"
+            android:text="@string/register"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
@@ -38,14 +38,13 @@
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
             android:layout_marginTop="30dp"
-            android:text="View Details Of Charity Home !"
+            android:text="@string/view_details_of_charity_home"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/viewbutton"
-
             android:layout_width="332dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

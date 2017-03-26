@@ -15,7 +15,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="30dp"
-            android:text="Register Your Details!"
+            android:text="@string/register_your_details"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textSize="30sp"
@@ -26,9 +26,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
-            android:text="Name:"
+            android:text="@string/name"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:ems="10"
-            android:hint="Type Name"
+            android:hint="@string/type_name"
             android:inputType="textPersonName" />
 
         <TextView
@@ -49,7 +49,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
-            android:text="Address:"
+            android:text="@string/address"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:ems="10"
-            android:hint="Postal Address"
+            android:hint="@string/postal_address"
             android:inputType="textPostalAddress" />
 
         <TextView
@@ -70,7 +70,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
-            android:text="Contact No:"
+            android:text="@string/contact_no"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:ems="10"
-            android:hint="Type Contact No."
+            android:hint="@string/type_contact_no1"
             android:inputType="number" />
 
         <TextView
@@ -91,7 +91,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
-            android:text="Email-id:"
+            android:text="@string/email_id"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#4689C8"
             android:textStyle="bold" />
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:ems="10"
-            android:hint="Type Email-id"
+            android:hint="@string/type_email_id1"
             android:inputType="textEmailAddress" />
 
 
@@ -120,7 +120,7 @@
             android:shadowDy="2"
             android:shadowRadius="1"
             android:shape="rectangle"
-            android:text="SUBMIT"
+            android:text="@string/submit"
             android:textAlignment="center"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="#ffff"

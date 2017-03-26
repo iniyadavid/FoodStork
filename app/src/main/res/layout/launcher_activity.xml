@@ -26,6 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="#51160404"
-        android:text="Bringing the Joy of Sharing!" />
+        android:text="@string/bringing_the_joy_of_sharing" />
 
 </LinearLayout>
