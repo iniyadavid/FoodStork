@@ -30,6 +30,14 @@ public class Receiver extends AppCompatActivity {
                 );
             }
         });
+        ImageButton button1 = (ImageButton) findViewById(R.id.viewbutton);
+        button1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                sendEmail(context, new String[]{"foodstork2017@gmail.com"}, "Send Goodwill",
+                        "Send GoodWill","Please send Gratitude Greetings to our latest donor."
+                );
+            }
+        });
 
 
     }
