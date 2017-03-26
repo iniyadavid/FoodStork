@@ -39,7 +39,7 @@ public class DonorRegistration extends AppCompatActivity {
                 EditText samplePersonEditTextView1 = (EditText) findViewById(R.id.addressView);
                 String address = samplePersonEditTextView1.getText().toString();
                 EditText samplePersonEditTextView2 = (EditText) findViewById(R.id.contactView);
-                Integer contact = Integer.parseInt(samplePersonEditTextView2.getText().toString());
+                String contact = samplePersonEditTextView2.getText().toString();
                 EditText samplePersonEditTextView3 = (EditText) findViewById(R.id.emailView);
                 String email = samplePersonEditTextView3.getText().toString();
 
@@ -55,7 +55,7 @@ public class DonorRegistration extends AppCompatActivity {
 
     }
 
-    public void insertDetails(String name, String address, int contact, String email) {
+    public void insertDetails(String name, String address, String contact, String email) {
         try {
             db = dbHelper.getWritableDatabase();
             ContentValues values = new ContentValues();

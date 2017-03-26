@@ -19,7 +19,7 @@ public class DonorDetailsDBHelper extends SQLiteOpenHelper {
                         DonorDetailsContract.DonorDetailsEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                         DonorDetailsContract.DonorDetailsEntry.COLUMN_DONOR_NAME + " TEXT NOT NULL" + ", " +
                         DonorDetailsContract.DonorDetailsEntry.COLUMN_DONOR_ADDRESS + " TEXT NOT NULL " + "," +
-                        DonorDetailsContract.DonorDetailsEntry.COLUMN_DONOR_CONTACT + " NUMBER NOT NULL " + "," +
+                        DonorDetailsContract.DonorDetailsEntry.COLUMN_DONOR_CONTACT + " TEXT NOT NULL " + "," +
                         DonorDetailsContract.DonorDetailsEntry.COLUMN_DONOR_EMAIL + " TEXT NOT NULL " + " )";
         db.execSQL(SQL_CREATE_DONORDB);
     }
