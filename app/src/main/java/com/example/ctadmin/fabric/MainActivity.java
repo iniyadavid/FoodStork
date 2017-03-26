@@ -37,6 +37,17 @@ public class MainActivity extends AppCompatActivity {
                 // TODO: associate the session userID with your user model
                 Toast.makeText(getApplicationContext(), "Authentication successful for "
                         + phoneNumber, Toast.LENGTH_LONG).show();
+                Button gotoButton = (Button) findViewById(R.id.gotoButton);
+
+
+                gotoButton.setOnClickListener(new View.OnClickListener() {
+
+                    @Override
+                    public void onClick(View view) {
+                        Intent gotoIntent = new Intent(MainActivity.this, Details.class);
+                        startActivity(gotoIntent);
+                    }
+                });
             }
 
             @Override
@@ -44,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("Digits", "Sign in with Digits failure", exception);
             }
         });
-        Button gotoButton = (Button) findViewById(R.id.gotoButton);
+        /*Button gotoButton = (Button) findViewById(R.id.gotoButton);
 
 
         gotoButton.setOnClickListener(new View.OnClickListener() {
@@ -54,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent gotoIntent = new Intent(MainActivity.this, Details.class);
                 startActivity(gotoIntent);
             }
-        });
+        }); */
 
     }
 }
