@@ -23,7 +23,7 @@
             android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/registerbutton"
+            android:id="@+id/registerbutton1"
             android:layout_width="253dp"
             android:layout_height="137dp"
             android:layout_gravity="center"
